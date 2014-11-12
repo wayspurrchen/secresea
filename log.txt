@@ -1,0 +1,97 @@
+2014-10-12T00:52:06.393647+00:00 heroku[api]: Release v6 created by wayspurrchen@gmail.com
+2014-10-12T00:52:06.393647+00:00 heroku[api]: Set DATABASE_URL config vars by wayspurrchen@gmail.com
+2014-10-12T00:52:06.496649+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_CHARCOAL resource by wayspurrchen@gmail.com
+2014-10-12T00:52:06.496724+00:00 heroku[api]: Release v7 created by wayspurrchen@gmail.com
+2014-10-12T00:53:48+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-12T00:54:21+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-12T00:54:21.667978+00:00 heroku[api]: Deploy b42410f by wayspurrchen@gmail.com
+2014-10-12T00:54:21.668033+00:00 heroku[api]: Release v8 created by wayspurrchen@gmail.com
+2014-10-12T00:54:23.046881+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=pixelsorter-test.herokuapp.com request_id=b4c9ec8f-87e5-4ef4-bd03-206fe971a8b4 fwd="54.161.120.115" dyno= connect= service= status=503 bytes=
+2014-10-12T00:55:23+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-12T00:55:35+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-12T00:55:35.034532+00:00 heroku[api]: Deploy d3d257b by wayspurrchen@gmail.com
+2014-10-12T00:55:35.034584+00:00 heroku[api]: Release v9 created by wayspurrchen@gmail.com
+2014-10-12T00:56:26+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-12T00:56:28.022559+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=pixelsorter-test.herokuapp.com request_id=e4afa712-b169-4739-ad68-2e39bbf52fb9 fwd="54.161.120.115" dyno= connect= service= status=503 bytes=
+2014-10-12T00:57:25+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-12T00:57:25.682978+00:00 heroku[api]: Deploy 7ec63d3 by wayspurrchen@gmail.com
+2014-10-12T00:57:25.683024+00:00 heroku[api]: Release v10 created by wayspurrchen@gmail.com
+2014-10-12T00:57:34.001101+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=pixelsorter-test.herokuapp.com request_id=93516a75-01f0-41ac-a164-a12d117b4426 fwd="54.161.120.115" dyno= connect= service= status=503 bytes=
+2014-10-12T01:12:05.897566+00:00 heroku[api]: Set PXLSRT_ENVIRONMENT config vars by wayspurrchen@gmail.com
+2014-10-12T01:12:05.898860+00:00 heroku[api]: Release v11 created by wayspurrchen@gmail.com
+2014-10-12T01:13:17+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-12T01:13:29+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-12T01:13:29.782356+00:00 heroku[api]: Deploy 1fe346e by wayspurrchen@gmail.com
+2014-10-12T01:13:29.782412+00:00 heroku[api]: Release v12 created by wayspurrchen@gmail.com
+2014-10-12T01:13:35.829172+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=pixelsorter-test.herokuapp.com request_id=b6b2fd98-48af-4a82-b4a3-8ecb726dcf4e fwd="54.161.120.115" dyno= connect= service= status=503 bytes=
+2014-10-12T01:14:41.123100+00:00 heroku[api]: Starting process with command `db:create` by wayspurrchen@gmail.com
+2014-10-12T01:14:45.021931+00:00 heroku[run.5588]: Awaiting client
+2014-10-12T01:14:45.116137+00:00 heroku[run.5588]: Starting process with command `db:create`
+2014-10-12T01:14:45.229592+00:00 heroku[run.5588]: State changed from starting to up
+2014-10-12T01:14:46.127170+00:00 heroku[run.5588]: Process exited with status 127
+2014-10-12T01:14:46.138918+00:00 heroku[run.5588]: State changed from up to complete
+2014-10-12T01:15:00.876483+00:00 heroku[api]: Starting process with command `bundle exec rake db:create:seed` by wayspurrchen@gmail.com
+2014-10-12T01:15:04.615602+00:00 heroku[run.4514]: Awaiting client
+2014-10-12T01:15:04.674540+00:00 heroku[run.4514]: Starting process with command `bundle exec rake db:create:seed`
+2014-10-12T01:15:04.919559+00:00 heroku[run.4514]: State changed from starting to up
+2014-10-12T01:15:08.122069+00:00 heroku[run.4514]: Process exited with status 1
+2014-10-12T01:15:08.129845+00:00 heroku[run.4514]: State changed from up to complete
+2014-10-12T01:15:13.454106+00:00 heroku[api]: Starting process with command `bundle exec rake db:create` by wayspurrchen@gmail.com
+2014-10-12T01:15:17.044362+00:00 heroku[run.6927]: Awaiting client
+2014-10-12T01:15:17.075307+00:00 heroku[run.6927]: Starting process with command `bundle exec rake db:create`
+2014-10-12T01:15:17.408520+00:00 heroku[run.6927]: State changed from starting to up
+2014-10-12T01:15:19.686876+00:00 heroku[run.6927]: Process exited with status 1
+2014-10-12T01:15:19.694254+00:00 heroku[run.6927]: State changed from up to complete
+2014-10-12T01:19:39+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-12T01:19:56+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-12T01:19:56.475281+00:00 heroku[api]: Deploy 9b8f1a7 by wayspurrchen@gmail.com
+2014-10-12T01:19:56.475281+00:00 heroku[api]: Release v13 created by wayspurrchen@gmail.com
+2014-10-12T01:20:00.835045+00:00 heroku[api]: Starting process with command `bundle exec rake db:create` by wayspurrchen@gmail.com
+2014-10-12T01:20:06.089218+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=pixelsorter-test.herokuapp.com request_id=80220c2e-c12d-49dd-9f08-14d86053c901 fwd="54.161.120.115" dyno= connect= service= status=503 bytes=
+2014-10-12T01:20:06.357041+00:00 heroku[run.8177]: Awaiting client
+2014-10-12T01:20:06.402848+00:00 heroku[run.8177]: Starting process with command `bundle exec rake db:create`
+2014-10-12T01:20:06.614253+00:00 heroku[run.8177]: State changed from starting to up
+2014-10-12T01:20:10.591143+00:00 heroku[run.8177]: Process exited with status 0
+2014-10-12T01:20:10.604318+00:00 heroku[run.8177]: State changed from up to complete
+2014-10-12T01:20:13.197226+00:00 heroku[api]: Starting process with command `bundle exec rake db:create` by wayspurrchen@gmail.com
+2014-10-12T01:20:17.112990+00:00 heroku[run.8931]: Awaiting client
+2014-10-12T01:20:17.152189+00:00 heroku[run.8931]: Starting process with command `bundle exec rake db:create`
+2014-10-12T01:20:17.505378+00:00 heroku[run.8931]: State changed from starting to up
+2014-10-12T01:20:20.113114+00:00 heroku[run.8931]: Process exited with status 1
+2014-10-12T01:20:20.121469+00:00 heroku[run.8931]: State changed from up to complete
+2014-10-12T01:21:08.830292+00:00 heroku[api]: Scale to worker=1 by wayspurrchen@gmail.com
+2014-10-12T01:21:12.419376+00:00 heroku[worker.1]: Starting process with command `ruby run.rb start`
+2014-10-12T01:21:12.972447+00:00 heroku[worker.1]: State changed from starting to up
+2014-10-12T01:21:13.504480+00:00 app[worker.1]: Faraday::Builder is now Faraday::RackBuilder.
+2014-10-12T01:21:14.258403+00:00 app[worker.1]: Initializing in staging mode...
+2014-10-12T01:21:14.258798+00:00 app[worker.1]: Starting mention capturing thread.
+2014-10-12T01:21:14.259327+00:00 app[worker.1]: @pixelsortertest: starting stream for pixelsortertest
+2014-10-12T01:21:14.263189+00:00 app[worker.1]: @pixelsortertest: Online!
+2014-10-12T01:29:39.992054+00:00 heroku[api]: Set PXLSRT_TEST_TWITTER_CONSUMER_KEY, PXLSRT_TEST_TWITTER_CONSUMER_SECRET, PXLSRT_TEST_TWITTER_OAUTH_TOKEN, PXLSRT_TEST_TWITTER_OAUTH_TOKEN_SECRET config vars by wayspurrchen@gmail.com
+2014-10-12T01:29:39.992093+00:00 heroku[api]: Release v14 created by wayspurrchen@gmail.com
+2014-10-12T01:29:40.119104+00:00 heroku[worker.1]: State changed from up to starting
+2014-10-12T01:29:42.931601+00:00 heroku[worker.1]: Stopping all processes with SIGTERM
+2014-10-12T01:29:43.352622+00:00 heroku[worker.1]: Starting process with command `ruby run.rb start`
+2014-10-12T01:29:43.938302+00:00 heroku[worker.1]: State changed from starting to up
+2014-10-12T01:29:44.199459+00:00 app[worker.1]: Faraday::Builder is now Faraday::RackBuilder.
+2014-10-12T01:29:44.451361+00:00 heroku[worker.1]: Process exited with status 143
+2014-10-12T01:29:45.060141+00:00 app[worker.1]: Initializing in staging mode...
+2014-10-12T01:29:45.060966+00:00 app[worker.1]: @pixelsortertest: starting stream for pixelsortertest
+2014-10-12T01:29:45.064765+00:00 app[worker.1]: Starting mention capturing thread.
+2014-10-12T01:29:45.065002+00:00 app[worker.1]: @pixelsortertest: Online!
+2014-10-12T01:30:19+00:00 heroku[slug-compiler]: Slug compilation started
+2014-10-12T01:30:32+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-10-12T01:30:32.592635+00:00 heroku[api]: Deploy 5c1abf6 by wayspurrchen@gmail.com
+2014-10-12T01:30:32.592724+00:00 heroku[api]: Release v15 created by wayspurrchen@gmail.com
+2014-10-12T01:30:33.584930+00:00 heroku[worker.1]: State changed from up to starting
+2014-10-12T01:30:35.165357+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=pixelsorter-test.herokuapp.com request_id=265ec7dc-a15f-4e11-bf14-f487e99f1b9b fwd="54.161.120.115" dyno= connect= service= status=503 bytes=
+2014-10-12T01:30:35.307313+00:00 heroku[worker.1]: Stopping all processes with SIGTERM
+2014-10-12T01:30:36.435568+00:00 heroku[worker.1]: Process exited with status 143
+2014-10-12T01:30:37.365601+00:00 heroku[worker.1]: Starting process with command `ruby run.rb start`
+2014-10-12T01:30:38.032825+00:00 heroku[worker.1]: State changed from starting to up
+2014-10-12T01:30:38.960991+00:00 app[worker.1]: Faraday::Builder is now Faraday::RackBuilder.
+2014-10-12T01:30:40.036741+00:00 app[worker.1]: Initializing in staging mode...
+2014-10-12T01:30:40.037702+00:00 app[worker.1]: @pixelsortertest: starting stream for pixelsortertest
+2014-10-12T01:30:40.042625+00:00 app[worker.1]: Starting mention capturing thread.
+2014-10-12T01:30:40.042850+00:00 app[worker.1]: @pixelsortertest: Online!
+2014-10-12T01:31:11.877487+00:00 app[worker.1]: @pixelsortertest: Mention from @wayspurrchen: @pixelsortertest right api keys now? http://t.co/qC1DXAZY31
