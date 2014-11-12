@@ -92,7 +92,15 @@ module Secresea
       end
     end
 
-    def grab_secrets
+    # We need to randomize what we send because Twitter complains
+    # about duplicate responses. Also, it's just nice.
+    def random_thank_you
+      [
+        "Thanks for sharing. I'll post your secret anonymously soon." +
+        "You might want to unfollow me - I'll unfollow you, too.",
+        "I'll post your message soon. For secrecy, you might want to unfollow me.",
+        "Thank you! I'll post your secret soon."
+      ].sample
     end
 
     def run(bot)
@@ -104,10 +112,7 @@ module Secresea
       bot.on_message do |dm|
         text = dm.text.gsub(/\n+/, '\n')
         Secresea::S3.add_secret text
-        # bot.reply(dm,
-        #   "Thanks for sharing. I'll post your message anonymously soon. " +
-        #   "You might want to unfollow me - I'll unfollow you, too."
-        # )
+        bot.reply(dm, random_thank_you)
       end
 
       # Follow users back
