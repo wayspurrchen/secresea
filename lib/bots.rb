@@ -96,7 +96,7 @@ module Secresea
     # about duplicate responses. Also, it's just nice.
     def random_thank_you
       [
-        "Thanks for sharing. I'll post your secret anonymously soon." +
+        "Thanks for sharing. I'll post your secret anonymously soon. " +
         "You might want to unfollow me - I'll unfollow you, too.",
         "I'll post your message soon. For secrecy, you might want to unfollow me.",
         "Thank you! I'll post your secret soon."
